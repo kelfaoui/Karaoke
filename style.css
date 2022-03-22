@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./image/soolking.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(233, 182, 229);
+    font-size: 44px;
+    align-self: center;
+    font-weight: bolder;
+    font-style: italic;
+
+
+}
+
+.lyrics{
+font-size: 32px;
+font-weight: 800;
+margin-top: 15px;
+border: 3px solid rgb(16, 7, 148);
+color: rgb(0, 0, 0);
+background-color: rgb(197, 224, 247);
+font-family: cursive;
+text-align: center;
+padding: 3px;
+}
+
+.player{
+    margin-top: 80px;
+}
